@@ -1,6 +1,6 @@
 # Rare Disease Research Collaborative Network
 
-![https://github.com/Jaber-Valinejad/RDAS/edit/master/RDAS_Social_Network/Figs/sn.jpg](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/Figs/sn.jpg)
+
 --------------------
 
 ## What is it?
@@ -18,11 +18,11 @@ who co-authored on RD related publications, co-investigated on NIH funded RD pro
 - [Documentation](#documentation)
 - [Getting Help](#getting-help)
 - [Discussion and Development](#discussion-and-development)
-- 
+  
 ## Data Collection and Sources
 
 - **Researcher data** has been collected from various sources, including **publications**, **NIH-funded projects**, and **clinical trial** data related to Rare Diseases (RD). Data is retrieved from **[RDAS](https://rdas.ncats.nih.gov/)**.
-- The affiliations and locations of researchers have been mapped to FIPS codes using the [uscities.csv](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/Data/uscities.csv) file.
+- The 'affiliations' and 'locations' of researchers have been mapped to 'FIPS' codes using the [uscities.csv](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/Data/uscities.csv) file.
 - To facilitate the mapping of researcher affiliations in NIH-funded projects to FIPS codes, the [Grant_org1.csv](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/Data/Grant_org1.csv) file was also utilized.
 
 ## Knowledge Graph
@@ -34,15 +34,15 @@ who co-authored on RD related publications, co-investigated on NIH funded RD pro
 
 ## Large Language Models (LLM)
 
-- In the [LLMs&PromptEng.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/LLM/LLMs%26PromptEng.ipynb), we experimented with various prompting techniques, including direct prompting, Zero-shot chain of thoughts, Self-Consistency CoT, self-feedback, and self-critique.
-- Several LLMs, such as OpenAI GPT, Llama 2, Llama 3, XGen-7B, Microsoft Phi, Google Gemini, and Claude, were tested within the [LLMs&PromptEng.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/LLM/LLMs%26PromptEng.ipynb) environment.
+- In the [LLMs&PromptEng.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/LLM/LLMs%26PromptEng.ipynb), we experimented with various prompting techniques, including **direct prompting, Zero-shot chain of thoughts, Self-Consistency CoT, self-feedback, and self-critique**.
+- Several LLMs, such as **OpenAI GPT, Llama 2, Llama 3, XGen-7B, Microsoft Phi, Google Gemini,** and **Claude**, were tested within the [LLMs&PromptEng.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/LLM/LLMs%26PromptEng.ipynb) environment.
 - Performance metrics, including ROUGE score, BERT score, [Mover Score](https://github.com/Jaber-Valinejad/emnlp19-moverscore), QuestEval, and BLANC, were used to evaluate the LLMs in the [Metrics.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/LLM/Metrics.ipynb).
-- Additionally, Deepseek and Llama 3 were tested on the Azure platform using the [Azure.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/LLM/Azure.ipynb) file.
+- Additionally, **Deepseek** and **Llama 3** were tested on the Azure platform using the [Azure.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/LLM/Azure.ipynb) file.
 
 ## Analysis
 
 - To visualize the social network and draw maps, the [Network_visualization.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/Analysis/Network_visualization.ipynb) is used.
-- Various network analysis metrics, such as Cliques, PageRank, Hubs, and Authorities, are computed in [Analysis_v3.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/Analysis/Analysis_v3.ipynb).
+- Various network analysis metrics, such as **Cliques, PageRank, Hubs**, and **Authorities**, are computed in [Analysis_v3.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/Analysis/Analysis_v3.ipynb).
 
 ## Dependencies
 
