@@ -2,6 +2,7 @@
 
 
 pip
+multiprocessing
 neo4j
 spacy
 locationtagger
