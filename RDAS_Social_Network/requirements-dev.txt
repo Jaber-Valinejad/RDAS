@@ -2,7 +2,19 @@
 
 
 pip
+langchain-community
+langchain_experimental
 multiprocessing
+evaluate
+accelerate
+rouge_score
+bert_score
+pyemd
+pytest
+sentencepiece
+datasets
+Unidecode
+blanc
 neo4j
 spacy
 locationtagger
