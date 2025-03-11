@@ -17,16 +17,16 @@ Table below provides a comprehensive list of the primary classes and their assoc
 
 ### Table 1. Full list of primary classes and their associated data properties
 
-| Primary Classes           | Associated Data Properties                                                                                           | Brief Description |
-|---------------------------|----------------------------------------------------------------------------------------------------------------------|-------------------|
-| Clinical Trial            | Official Name, Official Affiliation, Brief Title, Official Title, Brief Summary, NCT Id, Location City, Location State, Location Country, Interventions |                   |
-| PubMed articles           | Full Name, Title, Affiliation, PubMed ID, Abstract Text, Keyword, Mesh terms                                        |                   |
-| NIH funded projects       | PI Name, Organization Name, Title, Application ID, Abstract, Terms, Core Project Number                             |                   |
-| GARD                      | GARD Name, GARD ID                                                                                                  |                   |
-| Researchers               | Name, Affiliation Name, Contact Information, Affiliation Zip Code                                                   |                   |
-| Location of Affiliation   | Affiliation Country, Affiliation State, Affiliation County, Affiliation City, Affiliation FIPS                      |                   |
-| Research Clusters         | Cluster ID, Cluster Size, Evidence, Key Terms                                                                       |                   |
-| Research Expertise        | Summarized Expertise                                                                                                |                   |
+| Primary Classes           | Associated Data Properties                                                                                           | 
+|---------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Clinical Trial            | Official Name, Official Affiliation, Brief Title, Official Title, Brief Summary, NCT Id, Location City, Location State, Location Country, Interventions |                   
+| PubMed articles           | Full Name, Title, Affiliation, PubMed ID, Abstract Text, Keyword, Mesh terms                                        |                   
+| NIH funded projects       | PI Name, Organization Name, Title, Application ID, Abstract, Terms, Core Project Number                             |                   
+| GARD                      | GARD Name, GARD ID                                                                                                  |                   
+| Researchers               | Name, Affiliation Name, Contact Information, Affiliation Zip Code                                                   |                   
+| Location of Affiliation   | Affiliation Country, Affiliation State, Affiliation County, Affiliation City, Affiliation FIPS                      |                   
+| Research Clusters         | Cluster ID, Cluster Size, Evidence, Key Terms                                                                       |                   
+| Research Expertise        | Summarized Expertise                                                                                                |                   
 
 
 ### Table 2. Relationships between primary classes
