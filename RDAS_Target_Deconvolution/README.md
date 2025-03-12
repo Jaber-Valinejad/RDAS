@@ -1,6 +1,7 @@
 
-<img src="https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Figs/TD.png" width="400"/>
-
+<p align="center">
+  <img src="https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Figs/TD.png" width="600"/>
+</p>
 ---
 # Target Identification and Drug Discovery for Rare Diseases through High-Throughput Screening and Phenotypic Assays
 
