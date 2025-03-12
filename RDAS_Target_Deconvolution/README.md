@@ -11,19 +11,16 @@ This project focuses on identifying potential therapeutic targets for rare disea
 ## Table of Contents
 
 - [Data Collection and Sources](#data-collection-and-sources)
-- [Knowledge Graph](#knowledge-graph)
-- [Large Language Models (LLM)](#large-language-models-llm)
-- [Analysis](#analysis)
-- [Dependencies](#dependencies)
-- [Documentation](#documentation)
-- [Getting Help](#getting-help)
 - [Discussion and Development](#discussion-and-development)
 - [Target Deconvolution](#target-deconvolution)
   - [Main Approach 1: Target Deconvolution via Predicted Genes](#main-approach-1-target-deconvolution-via-predicted-genes)
   - [Main Approach 2: Target Deconvolution via Similar Compounds (CTD)](#main-approach-2-target-deconvolution-via-similar-compounds-ctd)
   - [Main Approach 3: Target Deconvolution via Similar Compounds (CID)](#main-approach-3-target-deconvolution-via-similar-compounds-cid)
-  - [Association Checking](#association-checking)
-- [Development](#development)
+- [Association Checking](#association-checking)
+- [Dependencies](#dependencies)
+- [Documentation](#documentation)
+- [Getting Help](#getting-help)
+- [Discussion and Development](#discussion_and_development)
 
 ---
 
@@ -41,7 +38,7 @@ WITH p, reduce(all_texts = [], t IN texts | all_texts + t) AS all_texts
 RETURN p.pubmed_id, p.title, p.abstractText, p.publicationYear, apoc.coll.toSet([text IN all_texts | toLower(text)]) AS unique_texts
 ```
 
-
+---
 ## Target Deconvolution
 
 
@@ -64,7 +61,7 @@ In this approach, we use tools like [**SwissDrugDesign**](http://www.swisstarget
 This method leverages the **Comparative Toxicogenomics Database (CTD)** and **ChEMBL** to identify similar compounds related to the target disease. Steps include:
 
 - **Identifying Targets**: Using the 'chembl_webresource_client' and organism ‘Homo sapiens’ to find targets.
-- **Identifying similiar compounds**: To find similar compounds we use [ChEMBL API] (https://www.ebi.ac.uk/chembl/g/#search_results/all/query=CHEMBL1372162). Then, we find related genes using [uniprot](https://www.uniprot.org/uniprotkb/P00381/entry.)
+- **Identifying similiar compounds**: To find similar compounds we use [ChEMBL API](https://www.ebi.ac.uk/chembl/g/#search_results/all/query=CHEMBL1372162). Then, we find related genes using [uniprot](https://www.uniprot.org/uniprotkb/P00381/entry.)
 - **Identifying realted disaese**: Visit [pubchem](https://pubchem.ncbi.nlm.nih.gov/compound/Dextilidine). Then  we Find the [CTD link](https://ctdbase.org/detail.go?type=chem&acc=D013993) there. Then, we use this information to find related diseases. 
 
 - **Association Checking**: We check associations between any of genes, phenotypes, and diseases related to the identified compounds using resources like OMIM, Orphanet, and the [Human Phenotype Ontology (HPO)]([https://hpo.jax.org/data/annotations) and target gene.
@@ -89,7 +86,7 @@ SID-Map.gz: This is a listing of all (live) SIDs with their source names and reg
 4. **API Integration**: Additional conversion can be done via [pubchem API](https://pubchem.ncbi.nlm.nih.gov) to map CIDs to related diseases and phenotypes. Please refer to [SID-Map](https://ftp.ncbi.nlm.nih.gov/pubchem/Substance/Extras/SID-Map.gz).
 
 
-
+---
 
 ## Association Checking
 
@@ -122,7 +119,7 @@ The association checking process is multi-faceted and involves:
 
 ## Documentation
 
-For more detailed documentation, please refer to [Docs fodler](https://github.com/Jaber-Valinejad/RDAS/tree/master/RDAS_Target_Deconvolution/Docs).
+For more detailed documentation, please refer to [Docs folder](https://github.com/Jaber-Valinejad/RDAS/tree/master/RDAS_Target_Deconvolution/Docs).
 
 ---
 
