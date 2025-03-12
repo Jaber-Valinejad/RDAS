@@ -1,6 +1,6 @@
 # Target Identification and Drug Discovery for Rare Diseases through High-Throughput Screening and Phenotypic Assays
 
-![RDAS Image](https://github.com/Jaber-Valinejad/RDAS/edit/master/RDAS_Social_Network/Figs/snb.png)
+![https://github.com/Jaber-Valinejad/RDAS/edit/master/RDAS_Social_Network/Figs/snb.png](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Figs/TD.png)
 
 ---
 
