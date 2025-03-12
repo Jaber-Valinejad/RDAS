@@ -1,15 +1,8 @@
 
-<picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="[https://pandas.pydata.org/static/img/pandas_white.svg](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Figs/TD.png)">
-  <img alt="Pandas Logo" src="[https://pandas.pydata.org/static/img/pandas.svg](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Figs/TD.png)">
-</picture>
----
+<img src="https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Figs/TD.png" width="400"/>
 
+---
 # Target Identification and Drug Discovery for Rare Diseases through High-Throughput Screening and Phenotypic Assays
-
-![https://github.com/Jaber-Valinejad/RDAS/edit/master/RDAS_Social_Network/Figs/snb.png](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Figs/TD.png)
-
----
 
 ## What is it?
 
