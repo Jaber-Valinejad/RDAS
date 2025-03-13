@@ -25,7 +25,7 @@ This project focuses on identifying potential therapeutic targets for rare disea
 - [Getting Help](#getting-help)
 - [Discussion and Development](#discussion_and_development)
 
----
+
 
 ## Data Collection and Sources
 
@@ -41,7 +41,7 @@ WITH p, reduce(all_texts = [], t IN texts | all_texts + t) AS all_texts
 RETURN p.pubmed_id, p.title, p.abstractText, p.publicationYear, apoc.coll.toSet([text IN all_texts | toLower(text)]) AS unique_texts
 ```
 
----
+
 ## Target Deconvolution
 
 
@@ -89,7 +89,7 @@ SID-Map.gz: This is a listing of all (live) SIDs with their source names and reg
 4. **API Integration**: Additional conversion can be done via [pubchem API](https://pubchem.ncbi.nlm.nih.gov) to map CIDs to related diseases and phenotypes. Please refer to [SID-Map](https://ftp.ncbi.nlm.nih.gov/pubchem/Substance/Extras/SID-Map.gz).
 
 
----
+
 
 ## Association Checking
 
@@ -107,7 +107,7 @@ The association checking process is multi-faceted and involves:
 -Synonyms for diseases and biological terms can be accessed through [**OMIM**](https://api.omim.org/api/), [**Orphanet**](https://www.orpha.net/en/disease/detail/), and so on. For pathways, we refer to the [Gene Ontology database](https://amigo.geneontology.org/amigo/term/GO:0019430).
 
 
----
+
 
 ## Dependencies
 
@@ -118,23 +118,23 @@ The association checking process is multi-faceted and involves:
 - **ChemBL** API for compound information
 - **HPO** and **OMIM** for disease and phenotype data
 
----
+
 
 ## Documentation
 
 For more detailed documentation, please refer to [Docs folder](https://github.com/Jaber-Valinejad/RDAS/tree/master/RDAS_Target_Deconvolution/Docs).
 
----
+
 
 ## Getting Help
 
 For any issues or questions, please open an issue in the GitHub repository or contact the project maintainers.
 
----
+
 
 ## Discussion and Development
 We are working towards developing machine learning and deep learning models to predict genes associated with newly identified compounds. Currently, we are using tools like SwissDrugDesign and SuperPRED for gene-target predictions, which involve predicting genes based on the compounds' chemical structures. However, these tools have limitations, such as the inability to set prediction thresholds, leading to lower-confidence predictions (e.g., probabilities around 0.1). As we move forward, we plan to integrate machine learning and deep learning techniques to enhance the accuracy and reliability of these predictions. This will enable us to refine our approach, increase the confidence of gene-target associations, and accelerate the identification of promising therapeutic targets for rare diseases.
-To discuss new ideas, improvements, or any questions, please join the conversation in the **Discussions** section of the repository.
+To discuss new ideas, improvements, or any questions, please join the conversation in the Discussions section of the repository.
 
----
+
 
