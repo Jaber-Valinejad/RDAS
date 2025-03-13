@@ -74,3 +74,13 @@ This document lists the disease-related standards and databases, including their
 - **Genetic Databases** (e.g., **OMIM**, **GARD**, **HGNC**, **KEGG**) provide detailed genetic information associated with diseases, often used for identifying genetic markers or potential therapies.
 
 - **Phenotype and Clinical Data** (e.g., **DOID**, **MPATH**, **CSP**) link diseases to clinical presentations or phenotypes, which are important for understanding the manifestation of diseases in patients.
+
+
+| Database     | ID        | Description                              | Link                                          |
+|--------------|-----------|------------------------------------------|-----------------------------------------------|
+| **GARD**     | GARD:1234 | Rare disease information for CF         | [GARD Info](https://rarediseases.info.nih.gov/)|
+| **OMIM**     | OMIM:2197 | Genetic basis of CF, CFTR mutations     | [OMIM Info](https://www.omim.org/)             |
+| **MONDO**    | MONDO:0016| Classification of CF as a genetic disorder | [MONDO Info](https://mondo.monarchinitiative.org/)|
+| **SNOMED CT**| SNOMED:4177| Clinical term for CF                    | [SNOMED Info](https://www.snomed.org/)         |
+| **KEGG**     | KEGG:001  | Pathways related to CFTR gene            | [KEGG Info](https://www.kegg.jp/)              |
+
