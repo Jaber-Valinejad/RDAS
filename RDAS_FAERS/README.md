@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Figs/TD.png" width="600"/>
+  <img src="https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Figs/AE.webp" width="600"/>
 </p>
 
 ---
