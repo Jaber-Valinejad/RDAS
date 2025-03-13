@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Figs/Gr.webp" width="600"/>
+  <img src="https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Figs/Gr.webp" width="600"/>
 </p>
 
 ---
