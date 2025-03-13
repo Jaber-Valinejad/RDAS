@@ -4,8 +4,10 @@ This document lists the disease-related standards and databases, including their
 
 ## Table of Contents
 
--[Standards and Notations](#standards_and_notations)
--[Conceptual Relationships](#conceptual-relationships)
+-[Standards and Notations](standards_and_notations)
+
+-[Conceptual Relationships](conceptual-relationships)
+
 
 ## Standards and Notations
 
