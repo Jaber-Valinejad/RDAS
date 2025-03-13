@@ -69,3 +69,22 @@ WITH generic_name, COUNT(DISTINCT n) AS event_count
 RETURN generic_name, event_count 
 ORDER BY event_count DESC 
 LIMIT 10
+
+
+
+## Dependencies
+
+For a complete list of required packages, see the [full list of necessary packages](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/requirements-dev.txt)
+
+## Documentation
+
+ Documentation about the developed RCN can be found in the [Documentation](https://github.com/Jaber-Valinejad/RDAS/tree/master/RDAS_FAERS/Docs). 
+
+
+## Getting Help
+
+If you have any questions or need assistance, please reach out through the GitHub issues page.
+
+## Discussion and Development
+
+For ongoing development discussions and to report issues, please use the [GitHub Issue Tracker](https://github.com/ncats/RDAS/issues). We welcome contributions and collaboration on GitHub.
