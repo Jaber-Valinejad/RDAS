@@ -5,12 +5,12 @@
 ---
 
 
-| | |
-| --- | --- |
-| Testing | [![CI - Test](https://github.com/pandas-dev/pandas/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/pandas-dev/pandas/actions/workflows/unit-tests.yml) [![Coverage](https://codecov.io/github/pandas-dev/pandas/coverage.svg?branch=main)](https://codecov.io/gh/pandas-dev/pandas) |
-| Package | [![PyPI Latest Release](https://img.shields.io/pypi/v/pandas.svg)](https://pypi.org/project/pandas/) [![PyPI Downloads](https://img.shields.io/pypi/dm/pandas.svg?label=PyPI%20downloads)](https://pypi.org/project/pandas/) [![Conda Latest Release](https://anaconda.org/conda-forge/pandas/badges/version.svg)](https://anaconda.org/conda-forge/pandas) [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pandas.svg?label=Conda%20downloads)](https://anaconda.org/conda-forge/pandas) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Methods/Neo4j_v2.ipynb)|
-| Meta | [![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3509134.svg)](https://doi.org/10.5281/zenodo.3509134) [![License - BSD 3-Clause](https://img.shields.io/pypi/l/pandas.svg)](https://github.com/pandas-dev/pandas/blob/main/LICENSE) [![Slack](https://img.shields.io/badge/join_Slack-information-brightgreen.svg?logo=slack)](https://pandas.pydata.org/docs/dev/development/community.html?highlight=slack#community-slack) |
-
+|                |                                                   |
+| -------------- | ------------------------------------------------- |
+| **Testing**    | ![Static Badge](https://img.shields.io/badge/Project%20Status-Passing-green) |
+| **Docs**       | ![Static Badge](https://img.shields.io/badge/Docs-Passing-green) |
+| **Package**    | ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/Jaber-Valinejad/RDAS) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Methods/Neo4j_v2.ipynb) ![Static Badge](https://img.shields.io/badge/GraphDB-Neo4j-blue) ![Static Badge](https://img.shields.io/badge/Query%20Language-Cypher-yellow) |
+| **Meta**       | [![DOI](https://zenodo.org/badge/DOI/10.1109/BIBM62325.2024.10822513.svg)](https://doi.org/10.1109/BIBM62325.2024.10822513) [![Docs](https://img.shields.io/badge/Docs-ReadTheDocs-blue)](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Docs/BIBM24_paper.pdf) ![GitHub License](https://img.shields.io/github/license/Jaber-Valinejad/RDAS) ![GitHub Sponsors](https://img.shields.io/github/sponsors/Jaber-Valinejad) |
 
 
 # What is it?
