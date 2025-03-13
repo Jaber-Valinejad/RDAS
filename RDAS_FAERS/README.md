@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Figs/TD.png" width="600"/>
+</p>
+
+---
+
 # What is it?
 Rare diseases affect fewer than 200,000 individuals in the United States, with some being so rare that only a handful of people are impacted. According to the U.S. Food and Drug Administration (FDA), there are 1,268 approved orphan drugs available for treating these conditions. However, potentially beneficial drugs can also have side effects. Some adverse events, while serious, may be rare, making them difficult to identify or quantify in randomized controlled trials. Understanding these events is critical for improving patient safety and treatment outcomes. To better assess these risks, we aimed at summarizing adverse drug events for rare diseases by utilizing FDA Adverse Event Reporting System (FAERS). This study offers a foundation for future research of improving drug safety in rare diseases.
 
