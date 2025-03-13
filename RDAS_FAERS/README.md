@@ -32,8 +32,8 @@ Rare diseases affect fewer than 200,000 individuals in the United States, with s
 To capture associations between orphan drugs/designations and rare diseases, we collected orphan drug designations and approvals from the [FDA Orphan Drug Designations and Approvals](https://fis.fda.gov/sense/app/95239e26-e0be-42d9-a960-9a5f7f1c25ee/sheet/7a47a261-d58b-4203-a8aa-6d3021737452/state/analysis). 
 
 Subsequently, we mapped rare diseases obtained from the [Genetic and Rare Diseases (GARD) Information Center](https://ncats.nih.gov/research/research-resources/gard) to:
-- 'Approved Labeled Indication' for FDA-approved orphan drugs
-- 'Orphan Designation' for orphan designations based on string matching.
+- ''Approved Labeled Indication'' for FDA-approved orphan drugs
+- ''Orphan Designation'' for orphan designations based on string matching.
 
 Table 1 presents examples of these mappings:
 
