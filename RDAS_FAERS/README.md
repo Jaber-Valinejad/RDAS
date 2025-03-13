@@ -73,7 +73,7 @@ WITH generic_name, COUNT(DISTINCT n) AS event_count
 RETURN generic_name, event_count 
 ORDER BY event_count DESC 
 LIMIT 10
-'''
+```
 
 
 ## Dependencies
