@@ -15,6 +15,10 @@ Rare diseases affect fewer than 200,000 individuals in the United States, with s
    - [Mapping](#mapping)
    - [Data Model](#data-model)
    - [Cypher Query for Analyzing ADEs](#cypher-query-for-analyzing-ades)
+4. [Dependencies](#dependencies)
+5.  [Documentation](#documentation)
+6.  [Getting Help](#getting-help)
+7.  [Discussion and Development](#discussion-and-development)
 
 ## Data and Resources
 
@@ -69,7 +73,7 @@ WITH generic_name, COUNT(DISTINCT n) AS event_count
 RETURN generic_name, event_count 
 ORDER BY event_count DESC 
 LIMIT 10
-
+'''
 
 
 ## Dependencies
