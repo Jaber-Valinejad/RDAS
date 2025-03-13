@@ -19,11 +19,11 @@ Rare diseases affect fewer than 200,000 individuals in the United States, with s
   - National Drug Code Directory [/drug/ndc]
   - Drug Recall Enforcement Reports [/drug/enforcement]
   
-  Using [data.ipynb](path/to/your/data.ipynb), we can utilize the OpenFDA API to download datasets.
+  Using [data.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Methods/Data.ipynb), we can utilize the OpenFDA API to download datasets.
   
-- A list of all **rare diseases** for mapping can be obtained from resources like [GARD](https://rarediseases.info.nih.gov/). Please also refer to the file [Gard_v1.csv](path/to/your/Gard_v1.csv).
+- A list of all **rare diseases** for mapping can be obtained from resources like [GARD](https://rarediseases.info.nih.gov/). Please also refer to the file [Gard_v1.csv](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Data/Gard_v1.csv).
   
-- A list of **approved and not approved drugs** by the FDA can be found from the [FDA Orphan Drug Designations and Approvals](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/). Please see the file [all_drugs.csv](path/to/your/all_drugs.csv) to find all approved drugs.
+- A list of **approved and not approved drugs** by the FDA can be found from the [FDA Orphan Drug Designations and Approvals](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/). Please see the file [all_drugs.csv](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Data/all_drugs.xlsx) to find all approved drugs.
 
 ## Methods
 
@@ -32,8 +32,8 @@ Rare diseases affect fewer than 200,000 individuals in the United States, with s
 To capture associations between orphan drugs/designations and rare diseases, we collected orphan drug designations and approvals from the [FDA Orphan Drug Designations and Approvals](https://fis.fda.gov/sense/app/95239e26-e0be-42d9-a960-9a5f7f1c25ee/sheet/7a47a261-d58b-4203-a8aa-6d3021737452/state/analysis). 
 
 Subsequently, we mapped rare diseases obtained from the [Genetic and Rare Diseases (GARD) Information Center](https://ncats.nih.gov/research/research-resources/gard) to:
-- “Approved Labeled Indication” for FDA-approved orphan drugs
-- “Orphan Designation” for orphan designations based on string matching.
+- 'Approved Labeled Indication' for FDA-approved orphan drugs
+- 'Orphan Designation' for orphan designations based on string matching.
 
 Table 1 presents examples of these mappings:
 
@@ -45,11 +45,11 @@ Table 1 presents examples of these mappings:
 | Treatment of idiopathic pulmonary fibrosis | Idiopathic pulmonary fibrosis (GARD ID: 0008609) |
 | Treatment of cutaneous variants of porphyria (including treatment and prevention of cutaneous manifestations of disease) | Porphyria (GARD ID: 0010353) |
 
-The drug-to-GARD mapping can be found in the file [mapping.csv](path/to/your/mapping.csv).
+The drug-to-GARD mapping can be found in the file [mapping.csv](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Data/mapping.csv).
 
 ### Data Model
 
-To build the data model in **Neo4j**, you can use the [neo4j_v2.ipynb](path/to/your/neo4j_v2.ipynb). For further analysis, use the [analysis.ipynb](path/to/your/analysis.ipynb).
+To build the data model in **Neo4j**, you can use the [neo4j_v2.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Methods/Neo4j_v2.ipynb). For further analysis, use the [analysis.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Methods/Analysis.ipynb).
 
 ### Cypher Query for Analyzing ADEs
 
