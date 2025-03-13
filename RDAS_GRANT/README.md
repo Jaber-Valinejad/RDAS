@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Figs/AE.webp" width="600"/>
+  <img src="https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Figs/Gr.webp" width="600"/>
 </p>
 
 ---
 
-#
+# Rare Disease Identification in Unstructured Data
 
-# What is it?
+## What is it?
 The significant challenges associated with rare diseases in the medical and research domains include the scarcity of information, which is often confined to unstructured formats. Although existing approaches provide valuable insights, there is a need to develop effective methods to identify information pertinent to rare diseases for advancing rare disease research. We identified mentions of rare diseases in relevant texts and assessed their relevance using derived scores, the confidence score and semantic similarity from a fine-tuned BioMedBERT encoder. This encoder was fine-tuned using rare disease related text from Online Mendelian Inheritance in Man (OMIM), Orphanet, a manually validated dataset, and STS benchmark datasets. The process of identifying meaningful rare disease mentioned was presented through retrieved relevant NIH-funded projects, utilizing a generated knowledge graph in Neo4j to host data on 2,067 GARD diseases with over 320,000 NIH funded projects.
 
 ## Table of Contents
