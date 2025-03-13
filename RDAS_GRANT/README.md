@@ -6,6 +6,16 @@
 
 # Rare Disease Identification in Unstructured Data
 
+
+|                |                                                   |
+| -------------- | ------------------------------------------------- |
+| **Testing**    | ![Static Badge](https://img.shields.io/badge/Project%20Status-Passing-green) |
+| **Docs**       | ![Static Badge](https://img.shields.io/badge/Docs-Passing-green) |
+| **Package**    | ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/Jaber-Valinejad/RDAS) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Methods/Neo4j_v2.ipynb) ![Static Badge](https://img.shields.io/badge/GraphDB-Neo4j-blue) ![Static Badge](https://img.shields.io/badge/Query%20Language-Cypher-yellow) |
+| **Meta**       | [![DOI](https://zenodo.org/badge/DOI/10.1109/BIBM62325.2024.10822513.svg)](https://doi.org/10.1109/BIBM62325.2024.10822513) [![Docs](https://img.shields.io/badge/Docs-ReadTheDocs-blue)](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_FAERS/Docs/BIBM24_paper.pdf) ![GitHub License](https://img.shields.io/github/license/Jaber-Valinejad/RDAS) ![GitHub Sponsors](https://img.shields.io/github/sponsors/Jaber-Valinejad) |
+
+
+
 ## What is it?
 The significant challenges associated with rare diseases in the medical and research domains include the scarcity of information, which is often confined to unstructured formats. Although existing approaches provide valuable insights, there is a need to develop effective methods to identify information pertinent to rare diseases for advancing rare disease research. We identified mentions of rare diseases in relevant texts and assessed their relevance using derived scores, the confidence score and semantic similarity from a fine-tuned BioMedBERT encoder. This encoder was fine-tuned using rare disease related text from Online Mendelian Inheritance in Man (OMIM), Orphanet, a manually validated dataset, and STS benchmark datasets. The process of identifying meaningful rare disease mentioned was presented through retrieved relevant NIH-funded projects, utilizing a generated knowledge graph in Neo4j to host data on 2,067 GARD diseases with over 320,000 NIH funded projects.
 
