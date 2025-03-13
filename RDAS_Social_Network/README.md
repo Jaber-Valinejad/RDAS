@@ -1,8 +1,8 @@
-# Rare Disease Research Collaborative Network
-
 ![https://github.com/Jaber-Valinejad/RDAS/edit/master/RDAS_Social_Network/Figs/snb.png](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/Figs/snb.png)
 
 --------------------
+
+# Rare Disease Research Collaborative Network
 
 ## What is it?
 
