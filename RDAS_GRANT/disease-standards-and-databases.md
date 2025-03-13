@@ -2,11 +2,17 @@
 
 This document lists the disease-related standards and databases, including their descriptions and links to their official websites.
 
+## What is it?
+The primary goal is to standardize disease information across different databases and sources, creating a consistent and comprehensive mapping of rare diseases to enable more accurate research, diagnosis, and treatment options. This data integration process is essential for understanding the clinical manifestations, genetic underpinnings, and phenotypic traits of rare diseases. Additionally, it lays the groundwork for enhancing disease-related data interoperability across various platforms.
+
+
 ## Table of Contents
 
 -[Standards and Notations](#standards_and_notations)
 
 -[Conceptual Relationships](#conceptual-relationships)
+
+-[Data Integration and Mapping](#data-integration-and-mapping)
 
 
 ## Standards and Notations
@@ -75,6 +81,7 @@ This document lists the disease-related standards and databases, including their
 
 - **Phenotype and Clinical Data** (e.g., **DOID**, **MPATH**, **CSP**) link diseases to clinical presentations or phenotypes, which are important for understanding the manifestation of diseases in patients.
 
+#### Example: Mapping Cystic Fibrosis to Relevant Databases and Standards
 
 | Database     | ID        | Description                              | Link                                          |
 |--------------|-----------|------------------------------------------|-----------------------------------------------|
@@ -83,4 +90,13 @@ This document lists the disease-related standards and databases, including their
 | **MONDO**    | MONDO:0016| Classification of CF as a genetic disorder | [MONDO Info](https://mondo.monarchinitiative.org/)|
 | **SNOMED CT**| SNOMED:4177| Clinical term for CF                    | [SNOMED Info](https://www.snomed.org/)         |
 | **KEGG**     | KEGG:001  | Pathways related to CFTR gene            | [KEGG Info](https://www.kegg.jp/)              |
+
+
+
+## Data Integration and Mapping:
+
+- **MONDO/DOID Integration**: Loading and merging data from **MONDO** (Disease Ontology) and **DOID** (Disease Ontology Identifiers) to establish consistent disease classifications.
+- **GARD to ORPHANET Mapping**: Mapping **GARD** (Genetic and Rare Diseases Information Center) IDs to **ORPHANET** (rare disease database) using standard codes like **ICD-10** and **SNOMED-CT**.
+- **Group of Disorders Filter**: Filtering diseases based on their association with groups of disorders and ensuring that the diseases map correctly to standardized codes.
+
 
