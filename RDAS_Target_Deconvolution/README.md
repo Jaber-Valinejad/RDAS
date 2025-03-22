@@ -30,6 +30,7 @@ This project focuses on identifying potential therapeutic targets for rare disea
   - [Main Approach 2: Target Deconvolution via Similar Compounds (CTD)](#main-approach-2-target-deconvolution-via-similar-compounds-ctd)
   - [Main Approach 3: Target Deconvolution via Similar Compounds (CID)](#main-approach-3-target-deconvolution-via-similar-compounds-cid)
 - [Association Checking](#association-checking)
+- [Fine-Tuned LLM Model for Association Discovery](#fine-tuned-LLM-model-for-association-discovery)
 - [Dependencies](#dependencies)
 - [Documentation](#documentation)
 - [Getting Help](#getting-help)
@@ -116,8 +117,16 @@ The association checking process is multi-faceted and involves:
 
 -Synonyms for diseases and biological terms can be accessed through [**OMIM**](https://api.omim.org/api/), [**Orphanet**](https://www.orpha.net/en/disease/detail/), and so on. For pathways, we refer to the [Gene Ontology database](https://amigo.geneontology.org/amigo/term/GO:0019430).
 
+## Fine-Tuned LLM Model for Association Discovery
+The [annotation datasets](https://hpo.jax.org/data/annotations) are obtained through [The Human Phenotype Ontology](https://hpo.jax.org/data/annotations). These datasets include:
 
+- [Genes to Phenotype](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Data/genes_to_phenotype.txt)
+- [Phenotype to Genes](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Data/phenotype_to_genes.zip)
+- [Genes to Disease](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Data/genes_to_disease.txt)
 
+In addition to these datasets, we utilized a fine-tuned dataset available in [FT_data_v2.csv](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Data/FT_data_v2.csv) to construct the final fine-tuning dataset. This [dataset]() was generated using the [Finetuning_data.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Methods/Finetunning_data.ipynb) notebook. 
+
+The fine-tuning process is detailed in the [Lora.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Methods/Lora.ipynb) notebook.
 
 ## Dependencies
 
