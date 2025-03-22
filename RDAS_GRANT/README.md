@@ -51,8 +51,9 @@ For fine-tuning the model, we used the following datasets:
 
 ## Method
 
-Fine-tuning is performed using the [Bert.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Methods/Bert.ipynb) notebook. The main method for identifying rare diseases and calculating the semantic similarity score and confidence score is implemented in the [Main.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Methods/Main.ipynb) notebook.
-
+- **Approach 1:** Fine-tuning is performed using the [Bert.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Methods/Bert.ipynb) notebook. The main method for identifying rare diseases and calculating the semantic similarity score and confidence score is implemented in the [Main.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Methods/Main.ipynb) notebook.
+- **Approach 2:** This approach leverages a fine-tuned large language model (LLM) for rare disease identification. The fine-tuning process is detailed in [Lora.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Methods/Lora.ipynb), with the corresponding fine-tuned dataset available in [FT_data_v2.csv](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Data/FT_data_v2.csv). The dataset is generated using the [Finetunning_data.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Methods/Finetunning_data.ipynb) notebook.
+  
 ## Tableau
 
 For data visualization, we used **Tableau Desktop** and **Tableau Prep** for data preprocessing. The interactive version of ffures can be accessed online via [Tableau Public](https://public.tableau.com/app/profile/jab.valinejad/viz/GrantFundingDistributionforRareDiseaseResearchAcrossU_S_Institutions/GrantFundingDistributionforRareDiseaseResearchAcrossU_S_Institutions), which includes filters for:
