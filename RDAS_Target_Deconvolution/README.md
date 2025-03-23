@@ -126,7 +126,7 @@ The [annotation datasets](https://hpo.jax.org/data/annotations) are obtained thr
 
 In addition to these datasets, we utilized a fine-tuned dataset available in [FT_data_v2.csv](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Data/FT_data_v2.csv) to construct the final fine-tuning dataset. The final [dataset](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Data/finetuning_datasets.zip) was generated using the [finetuning_datasets.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Methods/finetuning_datasets.ipynb) notebook. 
 
-The fine-tuning process is detailed in the [Lora.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_GRANT/Methods/Lora.ipynb) notebook.
+The fine-tuning process is detailed in the [Lora.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Target_Deconvolution/Methods/Lora.ipynb) notebook.
 
 ## Dependencies
 
