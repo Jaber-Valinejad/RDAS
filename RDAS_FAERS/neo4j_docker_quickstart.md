@@ -133,5 +133,27 @@ CALL db.schema.visualization()
 ```
 
 ---
+## 8. Creating and Exporting Database Dumps with Docker
+
+To create and export a Neo4j database dump from a Docker container: 
+
+- List running containers to find the correct container ID or name:
+
+```cypher
+docker ps
+```
+- Stop the running Neo4j container (replace socialnetwork2 with your container name):
+
+```cypher
+docker stop socialnetwork2
+```
+- Create and export the dump to your local system:
+```cypher
+docker run --rm --volumes-from socialnetwork2 -v C:/Users/valinejadj2/Desktop:/backups neo4j:latest neo4j-admin database dump neo4j --to-path=/backups/
+```
+
+This command creates a neo4j.dump file on your local desktop (C:/Users/valinejadj2/Desktop). You can verify the dump file afterward by checking the specified folder.
+
+---
 
 You're all set to use Neo4j with Docker!
