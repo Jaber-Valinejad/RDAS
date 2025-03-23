@@ -68,7 +68,7 @@ docker exec -it myneo4j bash
 ```bash
 pip install setuptools==60.9.3
 pip install -U srt==3.5.2 neo4j==4.4.2
-
+```
 
 If you encounter errors during the upgrade, downgrade setuptools first:
 
