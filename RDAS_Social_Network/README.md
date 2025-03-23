@@ -23,6 +23,7 @@ who co-authored on RD related publications, co-investigated on NIH funded RD pro
 - [Data Collection and Sources](#data-collection-and-sources)
 - [Knowledge Graph](#knowledge-graph)
 - [Large Language Models (LLM)](#large-language-models-llm)
+- [Implementation of Retrieval-Augmented Generation (RAG) and Agent for Expertise Identification](#implementation-of-retrieval-augmented-generation-(rag)-and-agent-for-expertise-identification)
 - [Analysis](#analysis)
 - [Dependencies](#dependencies)
 - [Documentation](#documentation)
@@ -48,6 +49,11 @@ who co-authored on RD related publications, co-investigated on NIH funded RD pro
 - Several LLMs, such as **OpenAI GPT, Llama 2, Llama 3, XGen-7B, Microsoft Phi, Google Gemini,** and **Claude**, were tested within the [LLMs&PromptEng.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/LLM/LLMs%26PromptEng.ipynb) environment.
 - Performance metrics, including ROUGE score, BERT score, [Mover Score](https://github.com/Jaber-Valinejad/emnlp19-moverscore), QuestEval, and BLANC, were used to evaluate the LLMs in the [Metrics.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/LLM/Metrics.ipynb).
 - Additionally, **Deepseek** and **Llama 3** were tested on the Azure platform using the [Azure.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/LLM/Azure.ipynb) file.
+
+
+## Implementation of Retrieval-Augmented Generation (RAG) and Agent for Expertise Identification
+
+The implementation of Retrieval-Augmented Generation (RAG) for expertise identification is integrated within the [Agent.ipynb](https://github.com/Jaber-Valinejad/RDAS/blob/master/RDAS_Social_Network/LLM/Agent.ipynb) notebook. In this implementation, we utilize `tavily_search` and `rag` as tools to enhance information retrieval and generation. Additionally, a user interface (UI) is provided using Gradio for seamless interaction.
 
 ## Analysis
 
